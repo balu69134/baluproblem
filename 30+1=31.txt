@@ -389,3 +389,135 @@ if (n % 2 == 1) {
         scanner.close();
     }
 }
+
+package com.konest.programming;
+//import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		 int n=85;
+	    if(n%2==0 || n%3==0) {
+	    	System.out.println(" The number is divisible by either 2 or 3.");
+	    }
+	    else {
+	    	System.out.println("The number is  not divisible by either 2 or 3");
+	    
+		 
+		
+	}
+	 
+	
+
+}
+}
+
+
+
+package com.konest.programming;
+//import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		 String person=" male ";
+	    if(person.contains("male")) {
+	    	System.out.println(" male");
+	    }
+	     else if(person.contains("female")){
+	    	 System.out.println(" male");
+	    	
+	    }
+	    else {
+	    	System.out.println(" Invalid");
+	    
+		 
+		
+	}
+	 
+	
+
+}
+}
+
+package com.konest.programming;
+//import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		 int n=68;
+	    if( n*2 ==0|| n%6==0) {
+	    	System.out.println(" given number  is multiple  of 2  or divisible by 6");
+	    }
+	    else {
+	    	System.out.println(" given number  is not  multiple  of 2  or divisible by 6");
+	    
+		 
+		
+	}
+	 
+	
+
+}
+}
+////
+package com.konest.programming;
+//import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		 int n=50;
+	    if( n*2==0|| n%6==0) {
+	    	System.out.println(" given number  is multiple  of 2  or divisible by 6");
+	    }
+	    else {
+	    	System.out.println(" given number  is not  multiple  of 2  or divisible by 6");
+	    
+		 
+		
+	}
+	 
+	
+
+}
+}
+
+
+package com.konest.programming;
+//import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		 int n=5;
+	    if( n*3 ==0|| n*5==0) {
+	    	System.out.println(" The given number is a multiple of 2 or divisible by 6");
+	    }
+	    else {
+	    	System.out.println(" given number  is not  multiple  of 2  or divisible by 6");
+	    
+		 
+		
+	}
+	 
+	
+
+}
+}
+
+
+
+
+package com.konest.programming;
+//import java.util.Scanner;
+public class Voting {
+	public static void main(String[] args) {
+		 int n=5;
+	    if( n*2==0) {
+	    	System.out.println(" The given number is a multiple of 2 or divisible by 6");
+	    }
+	    else {
+	    	System.out.println(" given number  is not  multiple  of 2  or divisible by 6");
+	    
+		 
+		
+	}
+	 
+	
+
+}
+}
+
+
