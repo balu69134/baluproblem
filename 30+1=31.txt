@@ -1,0 +1,391 @@
+30+1=31
+31-1=30
+30-1=29
+29+1=30
+
+
+30+1=31
+31+1=32
+1-32=31
+1-31=30
+
+package javaapplication;
+
+public class Main {
+
+	 public static void main(String[] args) {
+		 int a=10; //a=10
+		 int b;  //b
+		 b=(++a)+(++a); // 
+		 System.out.println(a);
+		 System.out.println(b);
+		 
+	 }
+}
+
+
+
+
+10
+1+10=11
+11+1=12
+1-12=11
+1-11=10
+10+1=11
+1-11=10
+10-1=9
+9+1=10
+1-10=9
+
+package javaapplication;
+
+public class Main {
+
+	 public static void main(String[] args) {
+		 
+		
+		 byte b=10;
+		 short s=b;
+		// int i=b;
+		 //long l=b;
+		 //float f=b;
+		 //double d=b;
+		 
+		 System.out.println(b);
+		 System.out.println(s);
+		 //System.out.println(i);
+		// System.out.println(l);
+		 //System.out.println(f);
+		// System.out.println(d);
+		
+		 
+		 
+	 }
+}
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+
+	 public static void main(String[] args) {
+		 
+		
+		 Scanner Scan=new Scanner(System.in);
+		 System.out.println("Use! please enter aninterger value");
+		 int a=Scan.nextInt();
+		 System.out.println("The Value="+a);
+		 
+		 
+		
+		 
+		 
+	 }
+}
+
+
+Scanner Scan=new Scanner(System.in);
+
+ System.out.println("Use! please enter aninterger value");
+
+byte a=Scan.next
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+
+	 public static void main(String[] args) {
+		 
+		
+		 Scanner scan=new Scanner(System.in);
+		 System.out.println("Use! please enter an value");
+		 float a=scan.nextFloat();
+		 System.out.println("The Value="+a);
+		 
+		 
+		
+		 
+		 
+	 }
+}
+
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+
+	 public static void main(String[] args) {
+		 
+		
+		 Scanner scan=new Scanner(System.in);
+		 System.out.println("Use! please enter an  byte value");
+		 byte a=scan.nextByte();
+		 System.out.println("The Value="+a);
+		 
+		 
+		
+		 
+		 
+	 }
+}
+
+ENTER THE AGE AND MARKS VALUES AND ALSO COUNTRY POPULATION  ON THE PROGRAM 
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+
+	 public static void main(String[] args) {
+		 
+		
+		 Scanner scann=new Scanner(System.in);
+		 System.out.println("Use! please enter an  age value");
+		 long a=scann.nextLong();
+		 
+		 System.out.println("The enter country population ;"+a);
+		 System.out.println("Use! please enter an  marks value");
+		 short b=scann.nextShort();
+		 System.out.println("The enter of marks;"+b);
+		 
+		 
+		 
+		 
+		
+		 
+		 
+	 }
+}
+
+
+
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args){
+
+Scanner scan=new Scanner(System.on);
+System.out.print("enter the float value");
+float b= scan.nextFloat();
+System.out.println("The enter the float value="+b);
+System.out.print("enter the char value");
+char c=scan.next().ch;
+System.out.println("The char ");
+}
+}
+
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+
+	 public static void main(String[] args) {
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		 Scanner scann=new Scanner(System.in);
+		 System.out.println("Enter an  name is correct ");
+		 Boolean a=scann.nextBoolean();
+		 
+		 System.out.println("enter true or fale ;"+a);
+		 
+		 System.out.println("Use! please enter an name is ");
+		 char b=scann.next().charAt(0);
+		 System.out.println("The enter of marks;"+b);
+		 
+		 
+		 
+ 
+	 }
+}
+
+
+
+
+
+package javaapplication;
+//import java.util.Scanner;
+public class Main {
+	// without return and without parameter
+	
+	public static void  add() {
+		int x=2;
+		int y=3;
+		int sum=x+y;
+		System.out.println("The sum is="+sum);
+		
+		
+	}
+	public static void main(String[] args) {
+		
+		add();
+	}
+	
+	
+	
+ }
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+	// without return and without parameter
+
+	public static  int  findSquare( int a) {
+         return (a*a);
+
+	 
+		
+
+
+	}
+	public static void main(String[] args) {
+		 System.out.println("enter integer number");
+		Scanner scan=new Scanner(System.in);
+		 int n =scan.nextInt();
+		 System.out.println(" The square given number" +findSquare(n));
+            
+	}
+
+
+
+}
+
+
+package javaapplication;
+import java.util.Scanner;
+public class Main {
+	public static void main(String[]args) {
+		Scanner scan= new 
+				Scanner(System.in);
+		 while(true) {
+		 System.out.println("calculator menu");
+		 System.out.println("1.Addition");
+		 System.out.println("2.Multi");
+		 System.out.println("3.division");
+		 System.out.println("4.;remainder");
+		 System.out.println("5.exit");
+		 
+		 int choice= scan.nextInt();
+	     if (choice ==5) {
+	    	 break;
+	     }
+	    	 System.out.println("Enter the first number");
+	    	 double number1=scan.nextDouble();
+	    	 System.out.println("Enter the seecond number");
+	    	 double number2=scan.nextDouble();
+	    	 double result=0;
+	    	 
+	    	 switch(choice) {
+	    	 case 1:
+	    	 result=number1+number2;
+	    	 break;
+	    	 
+	    	 case 2:
+	    	 result=number1+number2;
+	    	 break;
+	    	 
+	    	 case 3:
+	    	 
+	    		 if(number2!=0) {
+	    		 result =number1/number2;
+	    		
+	    		 }
+	    	 else {
+	    		 System.out.println("division number not allowed zero");
+	    		 continue;
+	    	 }
+	    	 break;
+	    	 case 4:
+	    		 if(number2!=0) {
+	    			 result=number1 % number2;
+	    			 
+	    		 }
+	    		 else {
+	    			 System.out.println("division number not allowed zero");
+	    		 }
+	    		 
+	    		 break;
+             default:
+                 System.out.println("Invalid choice. Please try again.");
+                 continue;
+	    	 }
+	    	 
+	    	 System.out.println("Result: " + result);
+	    	 }
+	     scan.close();
+	        System.out.println("Exiting the calculator. Goodbye!");	
+	     }
+		
+		 
+	}
+
+package javaapplication;
+//import java.util.Scanner;
+
+public class Main {
+	public static void add(int a) {
+		System.out.println("the result"+a);
+	}
+  public static void add(int a , int b) {
+	  System.out.println("The result"+(a+b));
+  }
+  
+  public static void add(double a, int b) {
+	  System.out.println("The result"+(a+b));
+	  
+  }
+  public static void add(int a, double b) {
+	   System.out.print("The result"+(a+b));
+ }
+  
+  public static void main(String[] args) {
+	  add(10);
+	  //add();
+	  add(10,20);
+	  add(47.97,8);
+	  add(4,8);
+  }
+}
+
+
+
+
+
+
+
+if (n % 2 == 1) {
+            System.out.println("Weird");
+        }
+        else if( n>=2 && n<=5) {
+            System.out.println("Not weird");
+        }
+        else if(n>=6 && n<=20){
+            System.out.println("Weird");
+            
+        }
+       else{
+           System.out.print("Not weird");
+       }
+
+
+        scanner.close();
+    }
+}
