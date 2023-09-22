@@ -519,7 +519,7 @@ public class Voting {
 
 }
 }
-
+ swap two integer without third variable
 package com.kodenest.car;
 
 public class Swap {
@@ -530,9 +530,19 @@ public class Swap {
 		 System.out.println("before swaping ");
 		 System.out.println("num1="+num1);
 		 System.out.println("num2="+num2);
-		 
-		
-		num1=num1+num2;
+
+
+/*  logic 1
+	
+		num1=num1^num2;
+		num2=num1 ^num2;
+		num1=num1^num2;
+
+
+*/		
+
+// logic 2
+                   num1=num1+num2;
 		num2=num1-num2;
 		num1=num1-num2;
 		 System.out.println("after swaping ");
@@ -542,6 +552,33 @@ public class Swap {
 	}
 
 }
+
+ swap two integer with third variable
+package com.kodenest.car;
+
+public class Swap {
+	public static void main(String[] args) {
+		int num1=5;
+		int num2=10;
+		int temp;
+		 System.out.println("before swaping ");
+		 System.out.println("num1="+num1);
+		 System.out.println("num2="+num2);
+		 
+		
+		temp=num1;
+		num1=num2;
+		num2=temp;
+		 System.out.println("after swaping ");
+		 System.out.println("num1="+num1);
+		 System.out.println("num2="+num2);
+		 
+	}
+
+}
+
+
+
 
 
 
