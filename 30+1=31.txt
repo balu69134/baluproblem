@@ -840,6 +840,48 @@ class Solution{
 
 
 
+Write a Java program that calculates the sum of squares for a given list of numbers. The program should first ask the user to enter the number of elements in the list. Then, it should prompt the user to enter each element one by one. Finally, it should calculate and print the sum of squares for all the elements.
+
+
+package com.kodenest.car;
+import java.util.Scanner;
+
+public class Square {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        
+        System.out.print("Enter the number of elements: ");
+        int n = s.nextInt();
+        int sumOfSquares = 0;
+        
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter element " + (i+1) + ": ");
+            int num = s.nextInt();
+            int square = num * num;
+            sumOfSquares += square;
+        }
+        
+        System.out.println("Sum of squares: " + sumOfSquares);
+        
+        s.close();
+    }
+}
+OUTPUT:-
+Enter the number of elements: 10
+Enter element 1: 1
+Enter element 2: 2
+Enter element 3: 3
+Enter element 4: 4
+Enter element 5: 5
+Enter element 6: 6
+Enter element 7: 7
+Enter element 8: 8
+Enter element 9: 9
+Enter element 10: 10
+Sum of squares: 385
+
+
+
 
 
 
