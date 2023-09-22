@@ -669,8 +669,148 @@ public class Switch {
 
 }
 }
+Number Sign Checker
+
+Write a Java program that checks the sign of a given integer. Prompt the user to enter an integer, and then determine and display whether it is positive, negative, or zero.
+
+package com.kodenest.car;
+
+import java.util.Scanner;
+
+public class Solution {
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter the  num1:");
+		int n= s.nextInt();
+	
+		if (n>0) {
+			System.out.println("postive");
+			
+		}
+		else if( n<0) {
+			System.out.println("negative");
+			
+		}
+		else {
+			System.out.println("zero");
+		}
+	}
+
+}
+
+Write a Java program that calculates the Body Mass Index (BMI) of a person. Prompt the user to enter their weight (in kilograms) and height (in meters), and then calculate and display their BMI. Use the following formula to calculate BMI:
 
 
+BMI= (height×height)
+weight
+​
+ 
+
+After calculating the BMI, categorize it as follows:
+
+BMI less than 18.5: Underweight
+BMI between 18.5 and 24.9: Normal weight
+BMI between 25.0 and 29.9: Overweight
+BMI 30.0 or greater: Obesity
+
+package com.kodenest.car;
+
+import java.util.Scanner;
+
+public class Massindex {
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter the  weight:");
+		double weight= s.nextDouble();
+		System.out.println(" Enter the hieght :");
+		double height= s.nextDouble();
+		
+		double bmi = weight / (height * height);
+		
+		System.out.println(" Your BMI is: %.2f%n" +bmi);
+		
+		if(bmi<18.5) {
+			System.out.println(" Underweight:");
+			
+		}
+		
+		else if(bmi<18.5 && bmi>24.9) {
+			System.out.println("Normal weight");	
+			
+	
+		}
+		else if (bmi<25.0 && bmi>29.9) {
+			System.out.println("Overweight");
+			
+		}
+		
+		else  {
+			System.out.println(" Obesity ");
+		}
+	}
+
+}
+
+output:-
+Enter the  weight:
+17.5
+Enter the hieght :
+16.5
+Your BMI is: %.2f%n0.0642791551882461
+Underweight:
+
+
+
+package com.kodenest.car;
+
+import java.util.Scanner;
+
+public class Grade {
+	
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter the  marks:");
+		int m= s.nextInt();
+		
+		/*A score greater than or equal to 90 should receive an "A" grade.
+A score between 80 and 89 (inclusive) should receive a "B" grade.
+A score between 70 and 79 (inclusive) should receive a "C" grade.
+A score between 60 and 69 (inclusive) should receive a "D" grade.
+A score below 60 should receive an "F" grade.
+		 
+		 */
+		if( m>=90) {
+			System.out.println(" The grade (A)");
+			
+		}
+		else if ( m>=89) {
+			System.out.println("The grade B");
+		}
+		else if ( m>=79) {
+			System.out.println(" The grade C");
+		}
+		
+		else if (m>=69) {
+			System.out.println("The grade D");
+			
+		}
+		
+		else if(m<=60) {
+			System.out.println("The grade F");
+			
+			
+		}
+		
+		else {
+			System.out.println(" Invalid ");
+		}
+		
+}
+}
+Output:-
+Enter the  marks:
+-1
+The grade F
 
 
 
