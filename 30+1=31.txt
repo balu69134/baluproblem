@@ -881,7 +881,144 @@ Enter element 10: 10
 Sum of squares: 385
 
 
+Write a Java class named Person with the following attributes: name (String) and age (int). Create a constructor for the class that initializes these attributes when a Person object is created. Then, write a program to create instances of the Person class and print their details.
+
+package com.constructor.demo;
+
+public class Student {
+	String name;
+	int age;
+	//float marks;
+public  String  getname() {
+		return name;
+	}
+	
+	public int getage() {
+		return age;
+	}
 
 
+
+
+	public Student(String name ,int age ) {
+		this.name=  name;
+		this.age =  age;
+		//marks =c; 	
+	}
+}
+
+package com.constructor.demo;
+
+public class Application {
+	public static void main(String[] args) {
+		Student s=new Student( "balu",21 );
+		
+		System.out.println(s.name);
+		System.out.println( s.age );
+		//System.out.println(s.marks );
+		
+		
+	}
+
+}
+
+output:
+balu
+21
+Parameterized Constructors:
+Extend the Person class from the previous question to include parameterized constructors that allow you to initialize the attributes during object creation in multiple ways. For example, create constructors that can take just the name, just the age, or both.
+
+package com.constructor.demo;
+
+public class Person {
+          String name;
+          int age;
+          public  String  getname() {
+		return name;
+	}
+	
+	public int getage() {
+		return age;
+	}
+          public  Person(String name, int age) {
+        	  this.name=name;
+        	  this.age=age;
+        	  
+          }
+          public Person(String name ) {
+        	  this.name=name;
+        	  this.age=0;
+          }
+          public Person(int age) {
+        	  this.name="unknow";
+        	  this.age=age;
+          }
+          public Person() {
+        	  this.name="unknow";
+        	  this.age=0;
+          }
+          
+          public static void main(String[] args) {
+        	  Person p= new Person("balu",21);
+        	  System.out.println(p.name);
+        	  System.out.println(p.age);
+        	  Person p1=new Person("ganesh");
+        	  System.out.println(p1.name);
+        	  Person p2=new Person(22);
+        	  System.out.println(p2.age);
+        	  Person p3=new Person();
+        	  System.out.println();
+        	  
+        	  
+          }
+}
+
+
+output;
+balu
+21
+ganesh
+22
+
+
+reate a Java class called Student with attributes name (String), age (int), and grade (char). Define a default constructor that initializes the attributes with default values. Write a program to create a Student object using the default constructor and print its details.
+package com.constructor.demo;
+
+public class Student1 {
+	String name;
+	int age;
+	char grade;
+	
+	public Student1(String name,int age,char grade ) {
+		this.name=name;
+		this.age=age;
+		this.grade=grade;
+		
+		
+
+}
+	public  String  getname() {
+		return name;
+	}
+	
+	public int getage() {
+		return age;
+	}
+	public char getgrade() {
+		return grade;
+	}
+	
+	
+	public static void main(String[] args) {
+		Student1 g= new Student1("balu",21,'A');
+		System.out.println(g.name);
+		System.out.println(g.age);
+		System.out.println(g.grade);
+	}
+}
+output:=
+balu
+21
+A
 
 
