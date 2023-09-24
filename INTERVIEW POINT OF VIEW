@@ -1,0 +1,127 @@
+JAVA IS PLATFORM INDEPENDENT LANGUAGE
+JAVA PLATFORM INDEPENDENT THAT MEANS JVM ONE OPERATING SYSTEM CAN'T BE USED AS JVM OF ANOTHER OPERATION SYSTEM.
+
+DATA TYPES
+1.PRIMITVE 
+2.NON-PRIMITIVE 
+1.PRIMITIVE DATA TYPE
+primitive data structure is considered as the fundamental data structure and it allows storing the values of only one data type 
+INTEGERS            DECIMAL   CHARACTERS        BOOLEAN
+INT SHORT            FLOAT       CHAR       TRUE OR FALSE
+
+Ex:-byte a = 2;
+
+2.NON-PRIMITIVE
+non-primitive data structures are considered as the user-defined structure that allows storing values of different data types within one entity.
+CLASSES AND INTERFACES
+Array
+String
+
+TYPE OF CASTING
+
+IMPLICITY CASTING:- A SMALL TO LARGE 
+EXPLICITY  CASTING :- A LARGE TO SMALL
+
+
+IN JAVA METHOD NAME FOLLOW CAMELCASE.
+RETURN_TYPE
+METHOD_NAME
+PARAMETER
+public static void main(parameters)
+method body:-
+method body contains actually code that is executed when the method calles based return types and parameters java methods can be classified  4 types
+1). method without parameter and without return type.
+public class ExampleClass {
+    // Method without parameters and without return type
+    public void printHello() {
+        System.out.println("Hello, World!");
+    }
+
+    public static void main(String[] args) {
+        // Create an instance of ExampleClass
+        ExampleClass example = new ExampleClass();
+
+        // Call the method
+        example.printHello();
+    }
+}
+
+
+2). method with parameter and without return type.
+package com.constructor.demo;
+
+public class Solution {
+	public void example( int  x , int y) {
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		int x=3;
+		int y=4;
+		int sum=x+y;
+		System.out.println(""+sum);
+	
+		
+
+}
+}
+
+
+3).method without parameter and  with return type
+
+
+package com.constructor.demo;
+
+public class Solution {
+	public void example( ) {
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		int x=3;
+		int y=4;
+		int sum=x+y;
+		System.out.println(""+sum);
+	
+		
+
+}
+}
+
+4).method with parameter and  with return type.
+
+
+package com.constructor.demo;
+
+public class Solution {
+	public int  example( int x , int y ) {
+	
+		int sum=x+y;
+		return sum;
+		
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		Solution s=new Solution();
+		int result=s.example(-2, -2);
+		System.out.println(""+result);
+	
+		
+
+}
+}
+
+Methodoverloading:-
+method overlaoding is feature of java where a class contain more than one method with same name but different parameter
+
+
+
+
+
+
