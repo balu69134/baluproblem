@@ -1,0 +1,4 @@
+Using Console Class
+It has been becoming a preferred way for reading user’s input from the command line. In addition,
+it can be used for reading password-like input without echoing the characters entered by the user;
+the format string syntax can also be used (like System.out.printf()). 
