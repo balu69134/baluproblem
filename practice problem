@@ -47,3 +47,89 @@ number = 1 / 10 = 0
             number=x/10;
 
             return number==reversed;
+
+parseInt:-converts its first argument to a string, parses that string, then returns an integer or NaN .
+ String result = Integer.toBinaryString();
+
+Input :  x = "10", y = "01"
+Output: "11"
+Input :  x = "110", y = "011"
+Output: "1001"
+Explanation:
+  110 
++ 011
+=1001
+Approach 1:
+
+Here, we need to start adding from the right side and when the sum returned is more than one then store the carry for the next digits
+        // Converting that resultant decimal into binary
+        // string
+ package com.constructor.demo;
+
+public class Binary {
+	 public static String add_Binary(String x, String y) {
+	 
+		int num1=Integer.parseInt(x,2);
+		int num2=Integer.parseInt(y,2);
+		int sum=num1+num2;
+		
+		String result=Integer.toBinaryString(sum);
+	    return result;
+		
+	}
+	public static void main(String[] args) {
+		
+		String x="101";
+		String y="10";
+		
+		System.out.print((add_Binary(x, y)));
+		
+		
+	}
+
+}
+ USER DEFINED 
+STRING TO BINARY VALUE
+
+package com.constructor.demo;
+import java.util.Scanner;
+public class Binary {
+	public static void main(String[] args) {
+	 Scanner scan= new Scanner(System.in);
+	 System.out.println("enter the binary value 1");
+	 String x=scan.next();
+	 System.out.println("enter the binary value 2");
+	 String y=scan.next();
+	 
+		int num1=Integer.parseInt(x,2);	
+		int num2=Integer.parseInt(y,2);
+		int n3=num1+num2;
+		//System.out.println(""+Integer.toBinaryString(num1));
+		//System.out.println(""+Integer.toBinaryString(num2));
+		System.out.println(""+Integer.toBinaryString(n3));
+		
+		
+	
+		
+	}
+	
+
+}
+OUTPUT:+
+enter the binary value 1
+1001
+enter the binary value 2
+10011
+11100
+
+
+
+
+
+
+
+
+
+
+
+
