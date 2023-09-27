@@ -1,0 +1,75 @@
+elments in italics
+*<em>  </em>
+*<i>    </i>
+*<cite> </cite>
+
+reduced font size:
+*<small> </small>
+
+increased font size
+*<big> </big>
+
+
+underlined
+*<u>    </u>
+*<ins> </ins>:-inserted
+
+
+align the text ot the right  ,left,center;
+*<p align=right> text</p>
+
+
+title text upto :-
+*<h1>  </h1>  to <h6>   </h6>
+
+
+writing text is bold
+*<b> </b>
+* <Strong>  </Strong>
+
+
+
+
+Highlights the text with a background a color
+* <mark>  </mark>
+
+
+The <abbr> tag defines an abbreviation 
+   *Use the global title attribute to show the description for the abbreviation
+   *<abbr title="Cascading Style Sheets">
+
+
+
+Quotation for section
+*<blockquote>
+      tag specifies a section that is quoted from another source.
+<blockquote cite="http://www.worldwildlife.org/who/index.html"> use like that
+*<P> <q> Single quotes </q> </P>
+     Single quotes
+
+
+
+
+Superscript:
+      *<sup> tag to create superscript text.
+       *<p>This is a mathematical formula: E=mc<sup>2</sup></p>
+
+Subscript:
+    * Use the <sub> tag to create subscript text.
+    * <p>H<sub>2</sub>O is the chemical formula for water.</p>
+img element html:
+
+<p>
+  <img src="C:\Users\balu6\OneDrive\Documents\Pictures\BALUPIC.jpeg" width="100" height="200" alt="image" title="balu imagew" >
+</p>
+
+
+
+src: Specifies the source (URL or file path) of the image.
+alt: Provides alternative text for the image, which is displayed if the image cannot be loaded or for accessibility purposes.
+width: Sets the width of the image in pixels.
+height: Sets the height of the image in pixels.
+title: Specifies a title or tooltip text that appears when the user hovers their mouse over the image. Note that this attribute is optional and is used for informational purposes.
+
+
+
