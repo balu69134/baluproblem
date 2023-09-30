@@ -60,7 +60,7 @@ Subscript:
 img element html:
 
 <p>
-  <img src="C:\Users\balu6\OneDrive\Documents\Pictures\BALUPIC.jpeg" width="100" height="200" alt="image" title="balu imagew" >
+  <img src="C:\Users\balu6\OneDrive\Documents\Pictures\BALUPIC.jpeg" width="100" height="200" alt="image" title="balu image" >
 </p>
 
 
@@ -70,6 +70,151 @@ alt: Provides alternative text for the image, which is displayed if the image ca
 width: Sets the width of the image in pixels.
 height: Sets the height of the image in pixels.
 title: Specifies a title or tooltip text that appears when the user hovers their mouse over the image. Note that this attribute is optional and is used for informational purposes.
+
+create a links tags
+<a href="example.com">    </a>
+href="example.com"
+without the href attribute to create a placeholder link  they should not navigated .
+
+
+ORDERED,UNORDERED, DESCRIPTION LIST
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title > table </title
+
+</head>
+<body> 
+
+<h1 align=center>  html list</h1>
+<h2> order list</h2>
+
+<ol>:-(to create numbered list)
+<li>balu </li>:-(<li>:- define elements the individual item)
+<li>balu </li>
+</ol>
+<h2 > unorder list</h2>
+
+
+<ul>( To createunordered list)
+<li> ganesh</li>
+<li>ganesh<li>
+</ul>
+
+<dl>:-( The list of terms and descriptions.)
+<dt> tea</dt>( list of items)
+<dd>  exter sugare</dd>( describe the item external information)
+
+
+</dl>
+
+</body>
+
+</html>
+
+
+
+ CREATE A TABLE
+
+
+<table>
+used to create the table itself.
+
+<thead>, <tbody>
+not manadatory but org is recommeneded.
+
+<tr>
+
+define the  a table  row.
+
+<th> define a table header cell
+<td> define a table data cell
+<!DOCTYPE html>
+<html>
+<head>
+<title > table </title
+
+</head>
+<body> 
+
+<table border="2">
+<tr> 
+
+<th>days</th>
+<th>period1</th>
+
+<th>period2</th>
+
+<th> period3</th>
+
+</tr>
+<tr>
+
+<td>monday</td>
+
+<td>maths</td>
+<td>sceine</td>
+<td>games</td>
+
+</tr>
+<tr>
+
+<td>tuesday</td>
+
+<td>phys</td>
+<td>sceine</td>
+<td>games</td>
+
+</tr>
+<tr>
+
+<td>thursadyu</td>
+
+<td> gap</td>
+<td>sceine</td>
+<td>games</td>
+
+</tr>
+</table>
+
+</dl>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+  HOW TO CREATE FORM IN HTML?
+<form action="/submit" method="POST">
+
+<form> </form>:- The tag used defined the form contianer.
+action= This attribute specifies the URL that will process the form data  after submission
+Method:= http method(GET OR POST) used  after submitting the form data.
+
+ <input type="text" id="name" name="name"><br><br>
+<input>:- The tag used to create different type if input elements such as text fileds  checkboxes and radio buttons
+
+type:-=  checkboxes and radio buttons and text, and submit
+name := this attribue assigns a name to the input element which is used to identify the form data when submitted
+
+<label> to provide a text albel for input elements , improving the accessibility and usability of the form.
+
+<textarea>:= Mutlti-field input field.
+
+<select> or <option> these tags are used to create a drop-down list of options for the user to choose form.
+
+
 
 
 
